@@ -44,7 +44,8 @@
                            Text="Right-click to open a context menu"
                            HorizontalAlignment="Center" VerticalAlignment="Center">
                     <TextBlock.ContextMenu>
-                        <ContextMenu Style="{StaticResource MaterialDesignContextMenu}">
+                        <ContextMenu Style="{StaticResource MaterialDesignContextMenu}"
+                                     materialDesign:ShadowAssist.CacheMode="{x:Null}">
                             <ContextMenu.LayoutTransform>
                                 <ScaleTransform ScaleX="2" ScaleY="2" />
                             </ContextMenu.LayoutTransform>
